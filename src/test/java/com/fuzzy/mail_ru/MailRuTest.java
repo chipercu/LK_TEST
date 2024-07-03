@@ -1,7 +1,6 @@
 package com.fuzzy.mail_ru;
 
 import com.fuzzy.base.BaseTest;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static com.fuzzy.common.Constants.MAIL_RU_HOME_PAGE;

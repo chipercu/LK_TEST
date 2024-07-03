@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 
 public class NewMessagePage extends BasePage {
 
-    private By toInput = By.xpath("//div[@data-name='to']//input");
-    private By messageSubjectInput = By.xpath("//input[@name='Subject']");
-    private By messageBodyInput = By.xpath("//div[@role='textbox']/div[1]");
-    private By sendButton = By.xpath("//button[@data-test-id='send']");
+    private final By toInput = By.xpath("//div[@data-name='to']//input");
+    private final By messageSubjectInput = By.xpath("//input[@name='Subject']");
+    private final By messageBodyInput = By.xpath("//div[@role='textbox']/div[1]");
+    private final By sendButton = By.xpath("//button[@data-test-id='send']");
 
 
     public NewMessagePage(WebDriver driver) {
